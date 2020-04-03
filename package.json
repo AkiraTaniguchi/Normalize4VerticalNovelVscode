@@ -10,20 +10,35 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.almum2chnum",
-		"onCommand:extension.chmum2alnum",
+		"onCommand:extension.toTimeEnZeroPad",
+		"onCommand:extension.toTimeJaZeroSup",
+		"onCommand:extension.toChnum",
+		"onCommand:extension.toAlnum",
+		"onCommand:extension.normalizePunctuation",
 		"onCommand:extension.normalizequestionexclamation"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "extension.almum2chnum",
-				"title": "Alabic Num to Chinese Num"
+				"command": "extension.toTimeEnZeroPad",
+				"title": "To Time English Zero Padding"
 			},
 			{
-				"command": "extension.chmum2alnum",
-				"title": "Chinese Num to Alabic Num"
+				"command": "extension.toTimeJaZeroSup",
+				"title": "To Time Japanese Zero suppress"
+			},
+			{
+				"command": "extension.toChnum",
+				"title": "To Chinese Num"
+			},
+			{
+				"command": "extension.toAlnum",
+				"title": "To Alabic Num"
+			},
+			{
+				"command": "extension.normalizePunctuation",
+				"title": "Normalize Punctuation"
 			},
 			{
 				"command": "extension.normalizequestionexclamation",
